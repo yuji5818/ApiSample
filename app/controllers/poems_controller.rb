@@ -8,5 +8,4 @@ class PoemsController < ApplicationController
     @poems = Poem.find(params[:id])
     render json: @poems
   end
-
 end
